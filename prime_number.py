@@ -1,19 +1,16 @@
-num=7  #prime is divisible my 1 and itself
+num=15 #prime is divisible my 1 and itself
 
-if 1%num and num%num==0:
+count=0
+
+for i in range(1,num+1):
+    if num%i==0:
+        count+=1
+print(count)
+
+if count==2:
     print("prime")
 else:
     print("not a prime")
-
-
-print("------------------")
-
-
-
-
-
-
-
 
 
 
