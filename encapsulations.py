@@ -85,20 +85,3 @@ p1 = Person("Linus", 50000)
 print(p1.name)
 print(p1._salary)
 
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
